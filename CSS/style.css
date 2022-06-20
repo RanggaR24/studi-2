@@ -1,0 +1,113 @@
+   <style>
+        body{
+            background: hsla(186, 33%, 94%, 1);
+
+background: linear-gradient(315deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(315deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(315deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1 );
+                        
+        }
+        h1, h4{
+            font-family: sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h4{
+            margin-top:10px;
+        }
+        table{
+            font-family: sans-serif;
+            border-collapse: collapse;
+            border-color: black;
+            margin-right: auto;
+            margin-left: auto;
+            
+        }
+        th, td{
+                padding: 5px;    
+            }
+
+        th{
+            text-align:center;
+            background-color: dimgray;
+            color: white;
+        }
+
+        td{
+            background-color: white;
+            text-align:center;
+        }
+        a{
+            text-decoration: none;
+            font-size:17px;
+            margin: 3px;
+            color: white;
+
+        }
+        button{
+            margin-bottom: 10px;
+            background-color: blue;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .edit{
+            padding: 5px;
+            background-color: green;
+        }
+        .hapus{
+            padding: 5px;
+            background-color: red;
+        }
+        .huruf{
+            font-size: 10px;
+        }
+        .tambah{
+            margin-left: -10px;
+            padding: 10px;
+           
+        }
+        .huruf{
+            font-size: 16px;
+        }
+        td:hover {background-color: #f5f5f5;}
+        
+        .huruf1{
+            color: white;
+            border-radius: 20px;
+            margin-left: 10px;
+            margin-bottom:20px;
+        }
+        .out{
+            padding:10px;
+            position: relative;
+            left: 130vh;
+            height: 43px;
+            background-color: red;
+        }
+        .kata{
+            font-size: 16px;
+            height: 50px;
+        }
+        .cari{
+            margin-bottom: 10px;
+            margin-left: 200px;
+            border: none;
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid black
+        }
+        .x{
+            margin-left: 8px;
+            color: white;
+            border-radius: 20px;
+            padding:9px;
+        }
+        .container{
+            margin-left:590px;
+        }
+    </style>
